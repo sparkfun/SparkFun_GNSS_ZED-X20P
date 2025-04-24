@@ -1895,7 +1895,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SparkFun-Coil:33nH_0603_0.3A"
+		(symbol "SparkFun-Coil:47nH_0603_0.3A"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1914,7 +1914,7 @@
 					)
 				)
 			)
-			(property "Value" "33nH"
+			(property "Value" "47nH"
 				(at 0 -1.27 0)
 				(effects
 					(font
@@ -1931,7 +1931,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/CI160808.pdf"
+			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243B-0010.pdf"
 				(at 0 -8.89 0)
 				(effects
 					(font
@@ -1940,7 +1940,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Inductor with ferrite core 30 ohm"
+			(property "Description" "Chip inductor"
 				(at 0 -13.97 0)
 				(effects
 					(font
@@ -1949,7 +1949,7 @@
 					(hide yes)
 				)
 			)
-			(property "PROD_ID" "NDUC-13805"
+			(property "PROD_ID" "NDUC-26402"
 				(at 0 -6.35 0)
 				(effects
 					(font
@@ -1958,12 +1958,13 @@
 					(hide yes)
 				)
 			)
-			(property "Frequency" "100MHz"
+			(property "Resistance" "0.72"
 				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "ki_keywords" "SparkFun inductor choke coil reactor magnetic"
@@ -1984,7 +1985,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "33nH_0603_0.3A_0_1"
+			(symbol "47nH_0603_0.3A_0_1"
 				(polyline
 					(pts
 						(xy -1.905 1.016) (xy -1.651 1.016)
@@ -2226,7 +2227,7 @@
 					)
 				)
 			)
-			(symbol "33nH_0603_0.3A_1_1"
+			(symbol "47nH_0603_0.3A_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 0.508)
@@ -6256,7 +6257,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SparkFun-GPS:ZED-F9P"
+		(symbol "SparkFun-GPS:ZED-X20P"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -6268,7 +6269,7 @@
 					)
 				)
 			)
-			(property "Value" "ZED-F9P"
+			(property "Value" "ZED-X20P"
 				(at -6.35 -25.4 0)
 				(effects
 					(font
@@ -6285,7 +6286,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://cdn.sparkfun.com/assets/f/8/d/6/d/ZED-F9P-02B_DataSheet_UBX-21023276.pdf"
+			(property "Datasheet" "https://www.u-blox.com/sites/default/files/documents/ZED-X20P_ProductSummary_UBXDOC-304424225-18238.pdf"
 				(at 0 -33.02 0)
 				(effects
 					(font
@@ -6294,7 +6295,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "u-blox Dual-Band RTK GNSS Receiver"
+			(property "Description" "u-blox All-Band RTK GNSS Receiver"
 				(at 0 -35.56 0)
 				(effects
 					(font
@@ -6303,7 +6304,7 @@
 					(hide yes)
 				)
 			)
-			(property "PROD_ID" "IC-16923"
+			(property "PROD_ID" "IC-26061"
 				(at 0 -30.48 0)
 				(effects
 					(font
@@ -6312,7 +6313,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "SparkFun u-blox ZED F9P RTK GNSS dual band L1 L2 GPS GLONASS BeiDou Galileo QZSS SBAS"
+			(property "ki_keywords" "SparkFun u-blox ZED X20P RTK GNSS all band L1 L2 L5 L6 GPS GLONASS BeiDou Galileo QZSS SBAS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6321,7 +6322,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "ZED-F9P_1_0"
+			(symbol "ZED-X20P_1_0"
 				(pin power_in line
 					(at -13.97 -22.86 0)
 					(length 2.54)
@@ -7439,8 +7440,407 @@
 						)
 					)
 				)
+				(pin no_connect line
+					(at 33.02 24.13 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 33.02 21.59 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 33.02 19.05 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 33.02 16.51 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 33.02 13.97 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 33.02 11.43 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 33.02 8.89 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 33.02 6.35 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 33.02 3.81 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 33.02 1.27 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 33.02 -1.27 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 33.02 -3.81 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 33.02 -6.35 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 33.02 -8.89 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 33.02 -11.43 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 33.02 -13.97 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 33.02 -16.51 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 33.02 -19.05 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 33.02 -21.59 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 33.02 -24.13 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "52"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 33.02 -26.67 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "54"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
-			(symbol "ZED-F9P_1_1"
+			(symbol "ZED-X20P_1_1"
 				(rectangle
 					(start -11.43 24.13)
 					(end 11.43 -24.13)
@@ -12711,6 +13111,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 156.21) (xy 260.35 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c14cf82-d59b-4030-8745-e558fbc6a3de")
+	)
+	(wire
+		(pts
 			(xy 368.3 90.17) (xy 368.3 88.9)
 		)
 		(stroke
@@ -14775,28 +15185,6 @@
 			)
 		)
 	)
-	(global_label "GEO_STAT"
-		(shape output)
-		(at 269.24 218.44 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2b086b0f-39b4-4046-b46a-b0a393112683")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 269.24 207.1586 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SDA{slash}~{CS}"
 		(shape bidirectional)
 		(at 60.96 147.32 180)
@@ -15106,7 +15494,7 @@
 		)
 	)
 	(global_label "RF_IN"
-		(shape input)
+		(shape output)
 		(at 367.03 144.78 90)
 		(fields_autoplaced yes)
 		(effects
@@ -15413,6 +15801,28 @@
 			)
 		)
 	)
+	(global_label "GEO_STAT"
+		(shape output)
+		(at 269.24 238.76 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bb537a0a-49b9-4f21-b8ed-b5bbc57e8f25")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 250.0414 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RTK_STAT"
 		(shape output)
 		(at 88.9 210.82 180)
@@ -15568,7 +15978,7 @@
 		)
 	)
 	(global_label "VCC_RF"
-		(shape output)
+		(shape input)
 		(at 389.89 163.83 0)
 		(fields_autoplaced yes)
 		(effects
@@ -17027,7 +17437,74 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Coil:33nH_0603_0.3A")
+		(lib_id "SparkFun-Connector:TestPoint_1.0mm")
+		(at 260.35 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15206637-c9c9-43bc-bf20-a7455dce837c")
+		(property "Reference" "TP2"
+			(at 260.35 151.13 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.0mm"
+			(at 260.35 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SparkFun-Connector:TestPoint-1.0mm"
+			(at 260.35 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 260.35 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 260.35 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3eb3bf9a-1ce9-4000-8853-b19235934c65")
+		)
+		(instances
+			(project ""
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Coil:47nH_0603_0.3A")
 		(at 378.46 153.67 90)
 		(mirror x)
 		(unit 1)
@@ -17038,7 +17515,7 @@
 		(fields_autoplaced yes)
 		(uuid "1704014c-e7b6-4e90-8d4b-8f50ec0fe8cd")
 		(property "Reference" "L2"
-			(at 375.92 151.1299 90)
+			(at 375.92 152.3999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17046,8 +17523,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33nH"
-			(at 375.92 153.6699 90)
+		(property "Value" "47nH"
+			(at 375.92 154.9399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17064,7 +17541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/CI160808.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243B-0010.pdf"
 			(at 387.35 153.67 0)
 			(effects
 				(font
@@ -17073,8 +17550,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor with ferrite core 30 ohm"
-			(at 378.46 153.67 0)
+		(property "Description" "Chip inductor"
+			(at 392.43 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17082,7 +17559,7 @@
 				(hide yes)
 			)
 		)
-		(property "PROD_ID" "NDUC-13805"
+		(property "PROD_ID" "NDUC-26402"
 			(at 384.81 153.67 0)
 			(effects
 				(font
@@ -17091,13 +17568,13 @@
 				(hide yes)
 			)
 		)
-		(property "Frequency" "100MHz"
-			(at 375.92 156.2099 90)
+		(property "Resistance" "0.72"
+			(at 382.27 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18860,6 +19337,72 @@
 	)
 	(symbol
 		(lib_id "SparkFun-PowerSymbol:3.3V")
+		(at 269.24 218.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4326b46c-4d07-4cb9-b343-fa5d0e0f8af9")
+		(property "Reference" "#PWR049"
+			(at 269.24 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 269.24 214.63 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"3.3V\""
+			(at 269.24 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2364106f-6188-46ed-af94-65983999b109")
+		)
+		(instances
+			(project "SparkFun_GNSS_ZED-X20P"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbol:3.3V")
 		(at 179.07 208.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20514,71 +21057,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-PowerSymbol:GND")
-		(at 269.24 238.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6caf84d6-21cd-4a3d-a5e0-40a338bc6274")
-		(property "Reference" "#PWR049"
-			(at 269.24 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 269.24 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 269.24 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 269.24 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "254a3959-77f8-4e6c-a30a-5d43eebe451b")
-		)
-		(instances
-			(project "SparkFun_GNSS_LG580P"
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SparkFun-DiscreteSemi:D_TVS_ESD_4_HS_3.3V")
 		(at 105.41 226.06 0)
 		(unit 1)
@@ -21414,7 +21892,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Coil:33nH_0603_0.3A")
+		(lib_id "SparkFun-Coil:47nH_0603_0.3A")
 		(at 355.6 153.67 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21424,7 +21902,7 @@
 		(fields_autoplaced yes)
 		(uuid "892e8b69-9a6e-443d-af48-44c25703dc39")
 		(property "Reference" "L1"
-			(at 358.14 151.1299 90)
+			(at 358.14 152.3999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21432,8 +21910,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33nH"
-			(at 358.14 153.6699 90)
+		(property "Value" "47nH"
+			(at 358.14 154.9399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21450,7 +21928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/CI160808.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243B-0010.pdf"
 			(at 346.71 153.67 0)
 			(effects
 				(font
@@ -21459,8 +21937,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor with ferrite core 30 ohm"
-			(at 355.6 153.67 0)
+		(property "Description" "Chip inductor"
+			(at 341.63 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21468,7 +21946,7 @@
 				(hide yes)
 			)
 		)
-		(property "PROD_ID" "NDUC-13805"
+		(property "PROD_ID" "NDUC-26402"
 			(at 349.25 153.67 0)
 			(effects
 				(font
@@ -21477,13 +21955,13 @@
 				(hide yes)
 			)
 		)
-		(property "Frequency" "100MHz"
-			(at 358.14 156.2099 90)
+		(property "Resistance" "0.72"
+			(at 351.79 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -22547,7 +23025,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-GPS:ZED-F9P")
+		(lib_id "SparkFun-GPS:ZED-X20P")
 		(at 334.01 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22581,7 +23059,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn.sparkfun.com/assets/f/8/d/6/d/ZED-F9P-02B_DataSheet_UBX-21023276.pdf"
+		(property "Datasheet" "https://www.u-blox.com/sites/default/files/documents/ZED-X20P_ProductSummary_UBXDOC-304424225-18238.pdf"
 			(at 334.01 95.25 0)
 			(effects
 				(font
@@ -22590,7 +23068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "u-blox Dual-Band RTK GNSS Receiver"
+		(property "Description" "u-blox All-Band RTK GNSS Receiver"
 			(at 334.01 97.79 0)
 			(effects
 				(font
@@ -22599,7 +23077,7 @@
 				(hide yes)
 			)
 		)
-		(property "PROD_ID" "IC-16923"
+		(property "PROD_ID" "IC-26061"
 			(at 334.01 92.71 0)
 			(effects
 				(font
@@ -22850,6 +23328,69 @@
 		)
 		(pin "42"
 			(uuid "06307ba6-57b0-4e11-b1e6-aa8947ef67e2")
+		)
+		(pin "13"
+			(uuid "506f3255-b815-45ce-aabd-33b81c7b6cbc")
+		)
+		(pin "16"
+			(uuid "a3437754-8b08-4859-8554-ade7bcb8092c")
+		)
+		(pin "8"
+			(uuid "1ff4f208-7d75-48ee-95ae-b79142e60a16")
+		)
+		(pin "10"
+			(uuid "17bb2cf5-99a1-47e5-9287-c855b96f1083")
+		)
+		(pin "11"
+			(uuid "b556a404-4119-4ec4-b601-2e003ec0e942")
+		)
+		(pin "35"
+			(uuid "cf2eaba5-718c-4a72-aff1-a97dc73c4a9a")
+		)
+		(pin "9"
+			(uuid "5d9731b2-c9b9-4743-aa3e-c6ab7d826fb1")
+		)
+		(pin "15"
+			(uuid "e34eac5b-a4fe-4333-be72-0993e86a6692")
+		)
+		(pin "17"
+			(uuid "8afbd203-a292-4335-b70e-af86609b042b")
+		)
+		(pin "18"
+			(uuid "aba3b424-edb9-45f4-9e26-0e0b0ac0ad82")
+		)
+		(pin "21"
+			(uuid "4f273459-8548-4c4c-9dcc-cca8d11769a0")
+		)
+		(pin "22"
+			(uuid "75cb42ae-c3dd-4e51-9f4e-fee4ec907e6e")
+		)
+		(pin "23"
+			(uuid "d21fbc25-6f07-4664-b0e7-b393c8febd92")
+		)
+		(pin "24"
+			(uuid "2f8e42bf-1d42-42bb-ad60-b6240ad2b532")
+		)
+		(pin "29"
+			(uuid "3644c320-15bb-4473-9434-5b6013531694")
+		)
+		(pin "25"
+			(uuid "40252534-2eaa-4fd9-888d-afa4258b503f")
+		)
+		(pin "30"
+			(uuid "c1c7c2a3-2a5f-44a5-a56a-8f24631c1cd1")
+		)
+		(pin "28"
+			(uuid "1bae663c-c7de-4deb-b386-33e0aa027231")
+		)
+		(pin "31"
+			(uuid "3b59d111-0314-4d8f-a4a7-c063a0b0ab6f")
+		)
+		(pin "54"
+			(uuid "9d12099a-b5b4-478a-a9b2-9c7fbe57e82f")
+		)
+		(pin "52"
+			(uuid "31f79f50-0e58-492e-9794-8df077af281b")
 		)
 		(instances
 			(project "SparkFun_GNSS_ZED-X20P"

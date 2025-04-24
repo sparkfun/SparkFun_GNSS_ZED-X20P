@@ -1,0 +1,14 @@
+2025-04-24 15:22:57,161 - panelizer_logger - INFO - Running Panelizer
+2025-04-24 15:22:57,163 - panelizer_logger - INFO - ['--panelx', '127.000000', '--panely', '127.000000', '--larger', '--vscorelayer', 'User.Comments', '--vscoretextlayer', 'User.Comments', '--gapx', '7.620000', '--gapy', '0.000000', '--hrail', '6.35', '--vrail', '6.35', '--fiducialpos', '0.25', '--fiducialslr']
+2025-04-24 15:22:57,165 - panelizer_logger - INFO - PANELIZER START: 2025-04-24T15:22:57.165915
+2025-04-24 15:23:01,846 - panelizer_logger - INFO - 
+START: 2025-04-24T15:22:57.165915
+Board saved by user.
+Zones filled by Panelizer.
+
+Board: C:/Users/nathan.seidle/Dropbox/Projects/SparkFun_GNSS_ZED-X20P/Hardware\Production\SparkFun_GNSS_ZED-X20P_panelized.kicad_pcb
+Board dimensions: 43.18 x 43.18 mm.
+You can fit 3 x 3 boards on the panel.
+Zones refilled by Panelizer.
+
+2025-04-24 15:23:03,172 - panelizer_logger - INFO - Panelizer complete
