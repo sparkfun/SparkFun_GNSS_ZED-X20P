@@ -1,66 +1,65 @@
-SparkFun Quadband GNSS RTK Breakout - LG290P (Qwiic)
+SparkFun Allband GNSS RTK Breakout - ZED-X20P (Qwiic)
 ========================================
 
-[![SparkFun Quadband GNSS RTK Breakout - LG290P (Qwiic)](https://cdn.sparkfun.com/r/600-600/assets/parts/2/7/6/3/7/26620-LG290P-Quadband-GNSS-Breakout-Feature.jpg)](https://www.sparkfun.com/products/26620)
+![SparkFun Allband GNSS RTK Breakout - ZED-X20P](./banner-repo.png)
 
-[*SparkFun Quadband GNSS RTK Breakout - LG290P (Qwiic) (GPS-26620)*](https://www.sparkfun.com/products/26620)
+[*SparkFun Allband GNSS RTK Breakout - ZED-X20P (Qwiic) (GPS-28871)*](https://www.sparkfun.com/sparkfun-allband-gnss-rtk-breakout-zed-x20p-qwiic.html)
 
+The SparkFun All-band GNSS RTK Breakout - ZED-X20P (Qwiic) features the latest GNSS engine from u-blox; the X20, which is a successor to their popular F9 engine. This board's dimensions, pin layout, and connectors are very similar to the [SparkFun GPS-RTK-SMA Breakout - ZED-F9P (Qwiic)](https://www.sparkfun.com/sparkfun-gps-rtk-sma-breakout-zed-f9p-qwiic.html); and in most circumstances, can be used as a drop-in replacement. The board also accommodates users with a diverse choice of interfaces including USB, UART, SPI, and I<sup>2</sup>C.
 
-The [SparkFun Quadband GNSS RTK Breakout - LG290P (Qwiic)](https://www.sparkfun.com/products/26620) features the Quectel LG290P GNSS module. The board's dimensions, pin layout, and connectors are exactly the same as our vary popular [SparkFun GPS-RTK-SMA Breakout - ZED-F9P (Qwiic)](https://www.sparkfun.com/products/16481); and can be used as a drop-in replacement. The board also accommodates users with a diverse choice of interfaces including UART, SPI*, and I2C*.
+The ZED-X20P module is an all-band, high precision GNSS receiver that concurrently processes signals from the GPS, Galileo, BeiDou, QZSS, and NavIC constellations across all GNSS frequency bands, including L-band. With positioning algorithms for Real-time Kinematics (RTK), PPP-RTK, and Precise Point Positioning* (PPP) technologies, the module supports standard RTCM corrections for Virtual Reference Stations (VRS) in a Network RTK setup or a local base station setup. Additionally, L-band correction services are natively supported without the need to integrate an external receiver, such as the NEO-D9S.
 
-The LG290P module is a quad-band, multi-constellation, high-precision, RTK GNSS receiver. The module is capable of simultaneously receiving signals from the `L1`, `L2`, `L5`, and `L6`/`E6` frequency bands of the GPS, GLONASS, Galileo, BDS, QZSS, and NavIC GNSS constellations. In addition, the module supports SBAS augmentation systems (WASS, EGNOS, BDSBAS, MSAS, GAGAN, and SDCM), PPP services* (BDS PPP-B2b, QZSS CLAS, MADOCA-PPP, and Galileo HAS), and RTK corrections for precision navigation with a fast convergence time and reliable performance.
+With its very high update rate, the ZED-X20P module is ideal for control applications, ensuring smooth and reliable operation. The module also protects system integrity with multi-layered defenses, including a Root of Trust, jamming and spoofing detection, cryptographic authentication of navigation messages through Galileo OSNMA, and more. This represents the highest level of integration in a single-chip receiver for the navigation and robotics markets; in unmanned autonomous vehicles (UAVs), guidance systems, and auto-steering applications.
 
-The built-in NIC anti-jamming unit provides professional-grade interference signal detection and elimination algorithms, which effectively mitigate against multiple narrow-band interference sources and significantly improves the signal reception performance in complex electromagnetic environments. Additionally, the embedded algorithms ensure reliable positioning in complex scenarios such as urban environments and deep tree cover.
+The ZED-X20P module is supported by the u-blox u-center 2 GNSS software for real-time performance analysis, receiver configuration, and data logging. The AssistNow Online, Offline, and Autonomous A-GNSS services can also be used with the module for faster satellite acquisition. Users can also interface with the GNSS module using NMEA 4.11 and UBX binary protocols.
 
-With its performance advantages of high-precision and low power consumption, this board is an ideal choice for high-precision navigation applications, such as intelligent robots, UAVs, precision agriculture, mining, surveying, and autonomous navigation.
 
 > [!NOTE]
-> `*`: Feature is still under development
-
-> [!IMPORTANT]
-> - Currently, only the UART interface is supported by the module. All three UART ports are broken out to the USB-C connector *(via CH342 USB-serial converter)*, 4-pin locking JST connector, and BlueSMiRF 6-pin header.
-> - Additionally, the corrections for some of the PPP services may not be implemented yet.
-
+> The USB interface does not fully comply with industry standards and is not suitable for production use. The USB 2.0 FS (full speed, 12 Mbit/s) interface can be used for host communication. Due to the hardware implementation, it may not be possible to certify the USB interface.
+> 
+> `*`: Feature in development
 
 
 Documentation
---------------
+-------------
 
-* **[Hookup Guide (mkdocs)](http://docs.sparkfun.com/SparkFun_LG290P_Quadband_GNSS_RTK_Breakout/)** - The hookup guide for the SparkFun Quadband GNSS RTK Breakout - LG290P (Qwiic) hosted by GitHub pages.<br>
-  [![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/) [![GitHub Pages Deploy](https://github.com/sparkfun/SparkFun_LG290P_Quadband_GNSS_RTK_Breakout/actions/workflows/mkdocs.yml/badge.svg)](https://github.com/sparkfun/SparkFun_LG290P_Quadband_GNSS_RTK_Breakout/actions/workflows/mkdocs.yml)
-* [SparkFun LG290P GNSS Arduino Library](https://github.com/sparkfun/SparkFun_LG290P_GNSS_Arduino_Library) - An Arduino library for the LG290P GNSS module
+- **[Hookup Guide (mkdocs)](http://docs.sparkfun.com/SparkFun_GNSS_ZED-X20P/)** - A hookup guide for the SparkFun Allband GNSS RTK Breakout - ZED-X20P breakout board hosted by GitHub pages.<br>
+  [![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/) [![GitHub Pages Deploy](https://github.com/sparkfun/SparkFun_GNSS_ZED-X20P/actions/workflows/build_documentation.yml/badge.svg)](https://github.com/sparkfun/SparkFun_GNSS_ZED-X20P/actions/workflows/build_documentation.yml)
+- [SparkFun u-blox GNSS v3 Arduino Library](https://github.com/sparkfun/SparkFun_u-blox_GNSS_v3) - An Arduino library for the u-blox GNSS modules
 
-
-*Need to download or print our hookup guide?*
-
-* [Print *(Print to PDF)* from Single-Page View](http://docs.sparkfun.com/SparkFun_LG290P_Quadband_GNSS_RTK_Breakout/print_view)
 
 Repository Contents
 -------------------
 
-* **[/docs](/docs/)** - Online documentation files
-    * [assets](/docs/assets/) - Assets files
-        * [3d_model](/docs/assets/3d_model/) - Files for the 3D models
-            * [3D CAD Model](/docs/assets/3d_model/cad_model.step) (.step)
-        * [board_files](/docs/assets/board_files/) - Files for the product design
-            * [KiCad Design Files](/docs/assets/board_files/kicad_files.zip) (.zip)
-            * [Schematic](/docs/assets/board_files/schematic.pdf) (.pdf)
-            * [Dimensions](/docs/assets/board_files/dimensions.pdf) (.pdf)
-        * [component_documentation](/docs/assets/component_documentation/) - Datasheets for hardware components
-        * [img/hookup_guide/](/docs/assets/img/hookup_guide/) - Images for hookup guide documentation
-* **[/Hardware](/Hardware/)** - Hardware design files (.brd, .sch)
-  * **[/Production](/Production/)** - Production files
+- **[/docs](/docs/)** - Online documentation files
+  - [/assets](/docs/assets/) - Assets files
+    - [/3d_model](/docs/assets/3d_model/) - 3D models for the board
+    - [/board_files](/docs/assets/board_files/) - Design files for the board
+      - [KiCad Design Files](/docs/assets/board_files/kicad_files.zip) (.zip)
+      - [Schematic](/docs/assets/board_files/schematic.pdf) (.pdf)
+      - [Dimensions](/docs/assets/board_files/dimensions.pdf) (.pdf)
+    - [/component_documentation](/docs/assets/component_documentation/) - Datasheets for hardware components
+    - [/img/hookup_guide](/docs/assets/img/hookup_guide/) - Images for hookup guide documentation - Hookup guide images for the board
+    - /Hardware - Hardware design files (.brd, .sch)
+      - /Production - Production files
+
 
 Product Variants
 ----------------
 
-* [GPS-26620](https://www.sparkfun.com/products/26620) - v1.0, Initial Release
-* [GPS-26916](https://www.sparkfun.com/products/26916) - SparkFun RTK Postcard *(w/ ESP32)*
+- [GPS-28871](https://www.sparkfun.com/sparkfun-allband-gnss-rtk-breakout-zed-x20p-qwiic.html) - Breakout Board
+- Flex Modules
+  - [GPS-29362](https://www.sparkfun.com/sparkpnt-gnss-flex-module-zed-x20p.html) - SparkPNT GNSS Flex Module
+  - [GPS-28997](https://www.sparkfun.com/sparkpnt-gnss-flex-module-zed-x20p-im19-imu.html) - SparkPNT GNSS Flex Module w/ IMU
+- pHAT Kits:
+  - [GPS-29887](https://www.sparkfun.com/sparkfun-gnss-flex-phat-zed-x20p.html) - SparkFun GNSS Flex pHAT
+  - [GPS-29888](https://www.sparkfun.com/sparkfun-gnss-flex-phat-zed-x20p-im19-imu.html) - SparkFun GNSS Flex pHAT w/ IMU
+
 
 Version History
 ---------------
 
-* [v10](https://github.com/sparkfun/SparkFun_LG290P_Quadband_GNSS_RTK_Breakout/releases/tag/v10) - Initial Release
+- [v10](https://github.com/sparkfun/SparkFun_GNSS_ZED-X20P/releases/tag/v10) - Initial Release
 
 
 License Information

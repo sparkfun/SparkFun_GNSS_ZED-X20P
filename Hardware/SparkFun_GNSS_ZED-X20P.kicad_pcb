@@ -5537,7 +5537,7 @@
 		(embedded_fonts no)
 		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Connector/JST_SMD_1.25mm-4_Locking.step"
 			(offset
-				(xyz -1.25 -0.5 0)
+				(xyz -1.25 -0.78 0.036)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -18902,18 +18902,6 @@
 			(uuid "17226694-0a54-490f-a96c-bbe095c8e8c8")
 		)
 		(embedded_fonts no)
-		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/GPS/zed-f9p.STEP"
-			(hide yes)
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 -90)
-			)
-		)
 		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/GPS/u-blox_ZED_Generic.step"
 			(offset
 				(xyz 0 0 0)
