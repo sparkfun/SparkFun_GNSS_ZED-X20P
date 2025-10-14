@@ -32,7 +32,7 @@
 
 
 !!! warning "Firmware Updates"
-	Firmware updates can only be performed with the `UART1` interface of the ZED-X20P. Additionally, when in the safe boot, the ZED-X20P requires an the training sequence to be enabled during the firmware update process.
+	As of HPG v2.02, firmware updates can be performed with the `UART1`, I^2^C, and SPI interfaces of the ZED-X20P. Additionally, when in the safe boot, the ZED-X20P requires an the training sequence to be enabled during the firmware update process.
 
 
 !!! info "Product Compatibility"

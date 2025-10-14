@@ -36,16 +36,17 @@ When messages from the class `CFG` are sent to the receiver, the receiver will s
 
 | Message | Class/ID | Description (Type) |
 | :------ | :------: | :----------------- |
-| `UBX-ACK-ACK` | `0x05 0x01` | - Message acknowledged (Output) |
-| `UBX-ACK-NAK` | `0x05 0x00` | - Message not acknowledged (Output) |
+| `UBX-ACK-ACK` | `0x05 0x01` | Message acknowledged (Output) |
+| `UBX-ACK-NAK` | `0x05 0x00` | Message not acknowledged (Output) |
 
 
 **`UBX-CFG`** - Configuration and command messages
 
 | Message | Class/ID | Description (Type) |
 | :------ | :------: | :----------------- |
-| `UBX-CFG-CFG`    | `0x06 0x09` | - Clear, save and load configurations (Command) |
-| `UBX-CFG-RST`    | `0x06 0x04` | - Reset receiver / Clear backup data structures (Command) |
+| `UBX-CFG-CFG`    | `0x06 0x09` | Clear, save, and load configurations (Command) |
+| `UBX-CFG-OTP`    | `0x06 0x41` | Write file `0xA4`: receiver configuration items (Set) |
+| `UBX-CFG-RST`    | `0x06 0x04` | Reset receiver/Clear backup data structures (Command) |
 | `UBX-CFG-VALDEL` | `0x06 0x8c` | - Delete configuration item values (Set)<br>- Delete configuration item values (with transaction) (Set) |
 | `UBX-CFG-VALGET` | `0x06 0x8b` | - Get configuration items (Poll request)<br>- Configuration items (Polled) |
 | `UBX-CFG-VALSET` | `0x06 0x8a` | - Set configuration item values (Set)<br>- Set configuration item values (with transaction) (Set) |
@@ -63,8 +64,14 @@ When messages from the class `CFG` are sent to the receiver, the receiver will s
 
 | Message | Class/ID | Description (Type) |
 | :------ | :------: | :----------------- |
-| `UBX-NAV-POSLLH` | `0x01 0x02` | - Geodetic position solution (Periodic/polled) |
-| `UBX-NAV-PVT`    | `0x01 0x07` | - Navigation position velocity time solution (Periodic/polled) |
+| `UBX-NAV-HPPOSECEF` | `0x01 0x13` | High precision position solution in ECEF (Periodic/polled) |
+| `UBX-NAV-HPPOSLLH`  | `0x01 0x14` | High precision geodetic position solution (Periodic/polled) |
+| `UBX-NAV-POSECEF`   | `0x01 0x01` | Position solution in ECEF (Periodic/polled) |
+| `UBX-NAV-POSLLH`    | `0x01 0x02` | Geodetic position solution (Periodic/polled) |
+| `UBX-NAV-PVT`       | `0x01 0x07` | Navigation position velocity time solution (Periodic/polled) |
+| `UBX-NAV-STATUS`    | `0x01 0x03` | Receiver navigation status (Periodic/polled) |
+| `UBX-NAV-SVIN`      | `0x01 0x3b` | Survey-in data (Periodic/polled) |
+
 
 
 **`UBX-UPD`** - Firmware update messages
