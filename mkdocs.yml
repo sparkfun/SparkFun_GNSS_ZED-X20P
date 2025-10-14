@@ -423,7 +423,6 @@ nav:
     - Configuration Settings:
       - GPS L5 Signal: l5_signal.md
       - UBX Protocol: ubx_protocol.md
-      - Configuration Interface: configuration_interface.md
   - Resources: resources.md
   - Support:
     - Troubleshooting Tips: troubleshooting_tips.md
