@@ -1,3 +1,8 @@
+!!! warning "HPG v2.02"
+    The binary strings for the UBX configuration of the GPS L5 signal, displayed below, are only valid with the latest **HPG 2.02 firmware** on the ZED-X20P.
+
+
+
 ## Health Status Configuration
 The ZED-X20P supports GPS `L5` signals. Broadcasting of Civil Navigation (CNAV) messages on the `L5` signal began in April 2014. At the time of writing, the GPS `L5` signals remain pre-operational and they are set unhealthy until sufficient monitoring capability is established. To evaluate GPS `L5` signals before they become fully operational, the receiver can be configured to ignore the GPS `L5` health status by overriding it with the respective GPS `L1 C/A` signal status.
 
@@ -24,7 +29,7 @@ The receiver does not use unhealthy signals for navigation by default. To ignore
 <td style="vertical-align: middle;">RAM</td>
 <td style="padding-top: 0; padding-bottom: 0;" markdown>
 ``` { .hex .no-select }
-B5 62 06 8A 09 00 00 01 00 00 01 00 32 10 01 DE ED
+B5 62 06 8A 09 00 01 01 00 00 01 00 32 10 01 DF F6
 ```
 </td>
 </tr>
@@ -32,7 +37,7 @@ B5 62 06 8A 09 00 00 01 00 00 01 00 32 10 01 DE ED
 <td style="vertical-align: middle;">BBR</td>
 <td style="padding-top: 0; padding-bottom: 0;" markdown>
 ``` { .hex .no-select }
-B5 62 06 8A 09 00 00 02 00 00 01 00 32 10 01 DF F5
+B5 62 06 8A 09 00 01 02 00 00 01 00 32 10 01 E0 FE
 ```
 </td>
 </tr>
@@ -40,7 +45,7 @@ B5 62 06 8A 09 00 00 02 00 00 01 00 32 10 01 DF F5
 <td style="vertical-align: middle;">FLASH</td>
 <td style="padding-top: 0; padding-bottom: 0;" markdown>
 ``` { .hex .no-select }
-B5 62 06 8A 09 00 00 04 00 00 01 00 32 10 01 E1 05
+B5 62 06 8A 09 00 01 04 00 00 01 00 32 10 01 E2 0E
 ```
 </td>
 </tr>
@@ -52,9 +57,9 @@ B5 62 06 8A 09 00 00 04 00 00 01 00 32 10 01 E1 05
 <!-- 
 | Configuration layer | Configuration string |
 | :---- | :--------------------------------------------------: |
-| RAM   | `B5 62 06 8A 09 00 00 01 00 00 01 00 32 10 01 DE ED` |
-| BBR   | `B5 62 06 8A 09 00 00 02 00 00 01 00 32 10 01 DF F5` |
-| FLASH | `B5 62 06 8A 09 00 00 04 00 00 01 00 32 10 01 E1 05` |
+| RAM   | `B5 62 06 8A 09 00 01 01 00 00 01 00 32 10 01 DF F6` |
+| BBR   | `B5 62 06 8A 09 00 01 02 00 00 01 00 32 10 01 E0 FE` |
+| FLASH | `B5 62 06 8A 09 00 01 04 00 00 01 00 32 10 01 E2 0E` |
 -->
 
 
@@ -74,7 +79,7 @@ To revert back to the default configuration, send the configuration string given
 <td style="vertical-align: middle;">RAM</td>
 <td style="padding-top: 0; padding-bottom: 0;" markdown>
 ``` { .hex .no-select }
-B5 62 06 8A 09 00 00 01 00 00 01 00 32 10 00 DD EC
+B5 62 06 8A 09 00 01 01 00 00 01 00 32 10 00 DE F5
 ```
 </td>
 </tr>
@@ -82,7 +87,7 @@ B5 62 06 8A 09 00 00 01 00 00 01 00 32 10 00 DD EC
 <td style="vertical-align: middle;">BBR</td>
 <td style="padding-top: 0; padding-bottom: 0;" markdown>
 ``` { .hex .no-select }
-B5 62 06 8A 09 00 00 02 00 00 01 00 32 10 00 DE F4
+B5 62 06 8A 09 00 01 02 00 00 01 00 32 10 00 DF FD
 ```
 </td>
 </tr>
@@ -90,7 +95,7 @@ B5 62 06 8A 09 00 00 02 00 00 01 00 32 10 00 DE F4
 <td style="vertical-align: middle;">FLASH</td>
 <td style="padding-top: 0; padding-bottom: 0;" markdown>
 ``` { .hex .no-select }
-B5 62 06 8A 09 00 00 04 00 00 01 00 32 10 00 E0 04
+B5 62 06 8A 09 00 01 04 00 00 01 00 32 10 00 E1 0D
 ```
 </td>
 </tr>
@@ -102,7 +107,7 @@ B5 62 06 8A 09 00 00 04 00 00 01 00 32 10 00 E0 04
 <!-- 
 | Configuration layer | Configuration string |
 | :---- | :--------------------------------------------------: |
-| RAM   | `B5 62 06 8A 09 00 00 01 00 00 01 00 32 10 00 DD EC` |
-| BBR   | `B5 62 06 8A 09 00 00 02 00 00 01 00 32 10 00 DE F4` |
-| FLASH | `B5 62 06 8A 09 00 00 04 00 00 01 00 32 10 00 E0 04` |
+| RAM   | `B5 62 06 8A 09 00 01 01 00 00 01 00 32 10 00 DE F5` |
+| BBR   | `B5 62 06 8A 09 00 01 02 00 00 01 00 32 10 00 DF FD` |
+| FLASH | `B5 62 06 8A 09 00 01 04 00 00 01 00 32 10 00 E1 0D` |
 -->

@@ -28,10 +28,10 @@
 		- :fontawesome-solid-file-pdf: [Product Summary](https://www.u-blox.com/sites/default/files/documents/ZED-X20P_ProductSummary_UBXDOC-304424225-18238.pdf)
 		- :fontawesome-solid-file-pdf: [Integration Manual](https://www.u-blox.com/sites/default/files/documents/ZED-X20P_IntegrationManual_UBXDOC-963802114-12901.pdf)
 		- :fontawesome-solid-file-pdf: [GPS L5 Configuration](https://www.u-blox.com/sites/default/files/documents/GPS-L5-configuration_AppNote_UBX-21038688.pdf)
-		- Firmware *(HPG 2.00)*
-			- :octicons-file-binary-16: [Firmware File](https://content.u-blox.com/sites/default/files/2025-05/UBX_20_HPG200_ZED-X20P.cbadd47b7f0eb6224338ae146252eedb.bin)
-			- :fontawesome-solid-file-pdf: [Interface Manual](https://www.u-blox.com/sites/default/files/documents/u-blox-20-HPG-2.00_InterfaceDescription_UBXDOC-304424225-19888.pdf)
-			- :fontawesome-solid-file-pdf: [Release Notes](https://www.u-blox.com/sites/default/files/documents/HPG200_RN_UBXDOC-304424225-19895.pdf)
+		- Firmware *(HPG 2.02)*
+			- :octicons-file-binary-16: [Firmware File](https://content.u-blox.com/sites/default/files/2025-07/UBX_20_HPG_202_ZED_F20P.329facb56ce18631d607fe15177834dc.bin)
+			- :fontawesome-solid-file-pdf: [Interface Manual](https://content.u-blox.com/sites/default/files/documents/u-blox-X20-HPG-2.02_InterfaceDescription_UBXDOC-304424225-19967.pdf)
+			- :fontawesome-solid-file-pdf: [Release Notes](https://content.u-blox.com/sites/default/files/documents/HPG202_RN_UBXDOC-304424225-20040.pdf)
 	- :fontawesome-solid-file-pdf: [RT9080 Datasheet](./assets/component_documentation/RT9080.pdf)
 	- :fontawesome-solid-file-pdf: [JST Connector Datasheet](./assets/component_documentation/JST-GH_datasheet.pdf)
 
@@ -56,10 +56,10 @@
 	- :fontawesome-solid-file-pdf: [Integration Manual](https://www.u-blox.com/sites/default/files/documents/ZED-X20P_IntegrationManual_UBXDOC-963802114-12901.pdf)
 	- Application Notes
 		- :fontawesome-solid-file-pdf: [GPS L5 Configuration](https://www.u-blox.com/sites/default/files/documents/GPS-L5-configuration_AppNote_UBX-21038688.pdf)
-	- Firmware *(HPG 2.00)*
-		- :octicons-file-binary-16: [Firmware File](https://content.u-blox.com/sites/default/files/2025-05/UBX_20_HPG200_ZED-X20P.cbadd47b7f0eb6224338ae146252eedb.bin)
-		- :fontawesome-solid-file-pdf: [Interface Manual](https://www.u-blox.com/sites/default/files/documents/u-blox-20-HPG-2.00_InterfaceDescription_UBXDOC-304424225-19888.pdf)
-		- :fontawesome-solid-file-pdf: [Release Notes](https://www.u-blox.com/sites/default/files/documents/HPG200_RN_UBXDOC-304424225-19895.pdf)
+	- Firmware *(HPG 2.02)*
+		- :octicons-file-binary-16: [Firmware File](https://content.u-blox.com/sites/default/files/2025-07/UBX_20_HPG_202_ZED_F20P.329facb56ce18631d607fe15177834dc.bin)
+		- :fontawesome-solid-file-pdf: [Interface Manual](https://content.u-blox.com/sites/default/files/documents/u-blox-X20-HPG-2.02_InterfaceDescription_UBXDOC-304424225-19967.pdf)
+		- :fontawesome-solid-file-pdf: [Release Notes](https://content.u-blox.com/sites/default/files/documents/HPG202_RN_UBXDOC-304424225-20040.pdf)
 - [Building a GNSS System](https://www.sparkfun.com/gps)
 - [Qwiic Info Page](https://www.sparkfun.com/qwiic)
 - :material-github: [Hardware Repo](https://github.com/sparkfun/SparkFun_GNSS_ZED-X20P)

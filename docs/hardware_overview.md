@@ -151,7 +151,7 @@ Below, is a general summary of the power circuitry on the board; most are broken
 	- Enabled by default *(active `HIGH`)*
 - **`RST`** - Used to reset the ZED-X20P GNSS module
 	- Connected to the [`RESET_N` pin](#pio-pins) of the ZED-X20P module, an input-only pin with an internal pull-up resistor (2)
-	- Driving the pin `LOW` for at least 1ms triggers a cold-start reset, clearing the `BBR` content *(receiver configuration, real-time clock (RTC), and GNSS orbit data)*
+	- Driving the pin `LOW` for at least 100ms triggers a cold-start reset, clearing the `BBR` content *(receiver configuration, real-time clock (RTC), and GNSS orbit data)*
 - **`GND`** - The common ground or the 0V reference for the voltage supplies.
 - **Backup Battery** - Provides backup power to the ZED-X20P GNSS module to maintain ephemeris data for warm starts
 
@@ -211,8 +211,8 @@ The power consumption of the ZED-X20P module depends on the GNSS signals enabled
 
 | GNSS Signals | Acquisition | Tracking |
 | :----------- | :---------: | :------: |
-| GPS+GAL+BDS  | 75mA        | 70mA     |
-| GPS          | 50mA        | 50mA     |
+| GPS+GAL+BDS  | 68mA        | 64mA     |
+| GPS          | 55mA        | 55mA     |
 
 </article>
 
@@ -304,22 +304,19 @@ With its very high update rate, the ZED-X20P module is ideal for control applica
 	- Tracking and Nav.: -167dBm
 	- Reacquisition: -160dBm
 	- Cold start: -148dBm
-	- Hot start: -157dBm
+	- Hot start: -158dBm
 - Accuracy
 	- Dynamic
-		- Velocity: 0.05m/s
+		- Velocity: 0.03m/s
 		- Heading: 0.3&deg;
+		- Time Pulse: 60ns
 	- Static/Position *(GPS+GAL+BDS)*
 		- Horizontal position accuracy (CEP)
 			- PVT: 1.2m
 			- SBAS: 0.6m
-			- RTK: 0.01m + 1ppm
-			- SPARTN: <0.06m
-		- Vertical position accuracy (Median)
-			- PVT: 2.0m
-			- SBAS: 1.0m
-			- RTK: 0.01m + 1ppm
-			- SPARTN: <0.10 m
+			- RTK: 0.006m + 1ppm
+			- PPP-RTK: <0.06m
+			- PPP: <0.10m
 
 </div>
 
@@ -331,15 +328,16 @@ With its very high update rate, the ZED-X20P module is ideal for control applica
 - Operational limits
 	- Dynamics: <4g
 	- Altitude: 80,000m
-	- Velocity: 500m/s
+	- Velocity: 300m/s
 	- Update Rate: Up to 25Hz
 - Time to Fix
-	- Cold Start: < 27s
-	- Aided Start: < 2s
+	- Cold Start: 25s
+	- Aided Start: 2s
 	- Hot Start: 2s
 - Convergence time:
-	- RTK: < 10s
-	- SPARTN: < 50s
+	- RTK: <7s
+	- PPP-RTK: <40s
+	- PPP: <120s
 - Features
     - Programmable flash memory
     - Carrier phase output
@@ -354,6 +352,7 @@ With its very high update rate, the ZED-X20P module is ideal for control applica
 	- Digital I/O
 		- `TIMEPULSE` configurable: 0.25 - 10MHz
 		- `EXTINT` input for Wakeup
+- Protocols: NMEA 4.11, UBX binary, RTCM v. 3.4, SPARTN v. 2.0.2
 - Services:
     - AssistNow
     - PointPerfect
@@ -601,7 +600,8 @@ The ZED-X20P module has twenty-one I/O pins, of which eight are programmable. Mo
 			- RTCM 3.4 protocol is enabled by default, but no output messages are enabled by default.
 			- NMEA protocol is disabled by default.
 		- `UART2` Input
-			- NMEA, RTCM 3.4, and SPARTN protocols are enabled by default.
+			- RTCM 3.4 and SPARTN protocols are enabled by default.
+			- NMEA protocol is disabled by default.
 
 		</div>
 
@@ -795,7 +795,7 @@ The ZED-X20P module has twenty-one I/O pins, of which eight are programmable. Mo
 
 
 	- **`RST`**
-	:	The `RST`pin is connected to the `RESET_N` pin of the ZED-X20P module. Driving the pin `LOW` for at least 1ms triggers a cold-start reset, clearing the `BBR` content *(receiver configuration, real-time clock (RTC), and GNSS orbit data)*.
+	:	The `RST`pin is connected to the `RESET_N` pin of the ZED-X20P module. Driving the pin `LOW` for at least 100ms triggers a cold-start reset, clearing the `BBR` content *(receiver configuration, real-time clock (RTC), and GNSS orbit data)*.
 
 			!!! info
 				Capacitors should not be placed between `RST` and `GND`; otherwise, it could trigger a reset on startup.
@@ -809,7 +809,7 @@ The ZED-X20P module has twenty-one I/O pins, of which eight are programmable. Mo
 
 
 	!!! note
-		The `SAFEBOOT_N` test point is for updates and reconfiguration. The ZED-X20P module will enter safeboot mode, if this pin is pulled `LOW` at starup.
+		The `SAFEBOOT_N` test point is for updates and reconfiguration. The ZED-X20P module will enter safeboot mode, if this pin is pulled `LOW` at startup.
 
 		The `SAFEBOOT_N` and `TIMEPULSE` (`PPS`) pins are internally connected in the ZED-X20P module, by a 1 k&ohm; series resistor. Make sure these pins have no load that could pull them low at startup; otherwise, the receiver will enter its safeboot mode.
 
@@ -839,7 +839,7 @@ The [`UART2` interface](#uart-interface) of the ZED-X20P can be accessed either 
 !!! info "Configuration Settings"
 	The UART interface can be configured with the `CFG-UART2-*` messages, but will initially have the following settings:
 
-	- Baudrate: 9600 to 921600bps *(Default: 38400bps)*
+	- Baudrate: 9600 to 8000000bps *(Default: 38400bps)*
 	- Data Bits: 8
 	- Parity: No
 	- Stop Bits: 1
@@ -924,7 +924,7 @@ The [`UART2` interface](#uart-interface) of the ZED-X20P can be accessed either 
 !!! info "Configuration Settings"
 	The UART interface can be configured with the `CFG-UART2-*` messages, but will initially have the following settings:
 
-	- Baudrate: 9600 to 921600bps *(Default: 38400bps)*
+	- Baudrate: 9600 to 8000000bps *(Default: 38400bps)*
 	- Data Bits: 8
 	- Parity: No
 	- Stop Bits: 1
