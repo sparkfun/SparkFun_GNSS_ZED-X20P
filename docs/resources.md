@@ -40,32 +40,6 @@
 </div>
 
 
-<!--
-- :sfe: [Product Page](https://www.sparkfun.com/sparkfun-allband-gnss-rtk-breakout-zed-x20p-qwiic.html)
-- :material-folder-cog: Design Files:
-	- :fontawesome-solid-file-pdf: [Board Dimensions](./assets/board_files/dimensions.pdf)
-	- :fontawesome-solid-file-pdf: [Schematic](./assets/board_files/schematic.pdf)
-	- :material-folder-zip: [KiCad Files](./assets/board_files/kicad_files.zip)
-	- :material-rotate-3d: [STEP File](./assets/3d_model/cad_model.step)
-- [u-center 2 Software](https://www.u-blox.com/en/product/u-center)
-	- [u-center 2 User Manual](https://www.u-blox.com/en/info/u-center-2-user-guide)
-	- [Tutorials](https://www.u-blox.com/en/u-center2-tutorials)
-- Component Documentation
-	- :fontawesome-solid-file-pdf: [Datasheet](https://www.u-blox.com/sites/default/files/documents/ZED-X20P-00B_DataSheet_UBXDOC-963802114-12690.pdf)
-	- :fontawesome-solid-file-pdf: [Product Summary](https://www.u-blox.com/sites/default/files/documents/ZED-X20P_ProductSummary_UBXDOC-304424225-18238.pdf)
-	- :fontawesome-solid-file-pdf: [Integration Manual](https://www.u-blox.com/sites/default/files/documents/ZED-X20P_IntegrationManual_UBXDOC-963802114-12901.pdf)
-	- Application Notes
-		- :fontawesome-solid-file-pdf: [GPS L5 Configuration](https://www.u-blox.com/sites/default/files/documents/GPS-L5-configuration_AppNote_UBX-21038688.pdf)
-	- Firmware *(HPG 2.02)*
-		- :octicons-file-binary-16: [Firmware File](https://content.u-blox.com/sites/default/files/2025-07/UBX_20_HPG_202_ZED_F20P.329facb56ce18631d607fe15177834dc.bin)
-		- :fontawesome-solid-file-pdf: [Interface Manual](https://content.u-blox.com/sites/default/files/documents/u-blox-X20-HPG-2.02_InterfaceDescription_UBXDOC-304424225-19967.pdf)
-		- :fontawesome-solid-file-pdf: [Release Notes](https://content.u-blox.com/sites/default/files/documents/HPG202_RN_UBXDOC-304424225-20040.pdf)
-- [Building a GNSS System](https://www.sparkfun.com/gps)
-- [Qwiic Info Page](https://www.sparkfun.com/qwiic)
-- :material-github: [Hardware Repo](https://github.com/sparkfun/SparkFun_GNSS_ZED-X20P)
--->
-
-
 
 ### Additional Resources
 
