@@ -1251,6 +1251,10 @@
 
   <h1>GPS L5 Signal</h1>
 
+<div class="admonition warning">
+<p class="admonition-title">HPG v2.02</p>
+<p>The binary strings for the UBX configuration of the GPS L5 signal, displayed below, are only valid with the latest <strong>HPG 2.02 firmware</strong> on the ZED-X20P.</p>
+</div>
 <h2 id="health-status-configuration">Health Status Configuration<a class="headerlink" data-preview="" href="#health-status-configuration" title="Permanent link"></a></h2>
 <p>The ZED-X20P supports GPS <code>L5</code> signals. Broadcasting of Civil Navigation (CNAV) messages on the <code>L5</code> signal began in April 2014. At the time of writing, the GPS <code>L5</code> signals remain pre-operational and they are set unhealthy until sufficient monitoring capability is established. To evaluate GPS <code>L5</code> signals before they become fully operational, the receiver can be configured to ignore the GPS <code>L5</code> health status by overriding it with the respective GPS <code>L1 C/A</code> signal status.</p>
 <ul>
@@ -1274,21 +1278,21 @@
 <tr>
 <td style="vertical-align: middle;">RAM</td>
 <td style="padding-top: 0; padding-bottom: 0;">
-<div class="language-text no-select highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>B5 62 06 8A 09 00 00 01 00 00 01 00 32 10 01 DE ED
+<div class="language-text no-select highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>B5 62 06 8A 09 00 01 01 00 00 01 00 32 10 01 DF F6
 </span></code></pre></div>
 </td>
 </tr>
 <tr>
 <td style="vertical-align: middle;">BBR</td>
 <td style="padding-top: 0; padding-bottom: 0;">
-<div class="language-text no-select highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>B5 62 06 8A 09 00 00 02 00 00 01 00 32 10 01 DF F5
+<div class="language-text no-select highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>B5 62 06 8A 09 00 01 02 00 00 01 00 32 10 01 E0 FE
 </span></code></pre></div>
 </td>
 </tr>
 <tr>
 <td style="vertical-align: middle;">FLASH</td>
 <td style="padding-top: 0; padding-bottom: 0;">
-<div class="language-text no-select highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>B5 62 06 8A 09 00 00 04 00 00 01 00 32 10 01 E1 05
+<div class="language-text no-select highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>B5 62 06 8A 09 00 01 04 00 00 01 00 32 10 01 E2 0E
 </span></code></pre></div>
 </td>
 </tr>
@@ -1300,9 +1304,9 @@
 <!-- 
 | Configuration layer | Configuration string |
 | :---- | :--------------------------------------------------: |
-| RAM   | `B5 62 06 8A 09 00 00 01 00 00 01 00 32 10 01 DE ED` |
-| BBR   | `B5 62 06 8A 09 00 00 02 00 00 01 00 32 10 01 DF F5` |
-| FLASH | `B5 62 06 8A 09 00 00 04 00 00 01 00 32 10 01 E1 05` |
+| RAM   | `B5 62 06 8A 09 00 01 01 00 00 01 00 32 10 01 DF F6` |
+| BBR   | `B5 62 06 8A 09 00 01 02 00 00 01 00 32 10 01 E0 FE` |
+| FLASH | `B5 62 06 8A 09 00 01 04 00 00 01 00 32 10 01 E2 0E` |
 -->
 
 <h2 id="disable-gps-l5-signal">Disable GPS <code>L5</code> Signal<a class="headerlink" data-preview="" href="#disable-gps-l5-signal" title="Permanent link"></a></h2>
@@ -1317,21 +1321,21 @@
 <tr>
 <td style="vertical-align: middle;">RAM</td>
 <td style="padding-top: 0; padding-bottom: 0;">
-<div class="language-text no-select highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>B5 62 06 8A 09 00 00 01 00 00 01 00 32 10 00 DD EC
+<div class="language-text no-select highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>B5 62 06 8A 09 00 01 01 00 00 01 00 32 10 00 DE F5
 </span></code></pre></div>
 </td>
 </tr>
 <tr>
 <td style="vertical-align: middle;">BBR</td>
 <td style="padding-top: 0; padding-bottom: 0;">
-<div class="language-text no-select highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>B5 62 06 8A 09 00 00 02 00 00 01 00 32 10 00 DE F4
+<div class="language-text no-select highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>B5 62 06 8A 09 00 01 02 00 00 01 00 32 10 00 DF FD
 </span></code></pre></div>
 </td>
 </tr>
 <tr>
 <td style="vertical-align: middle;">FLASH</td>
 <td style="padding-top: 0; padding-bottom: 0;">
-<div class="language-text no-select highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>B5 62 06 8A 09 00 00 04 00 00 01 00 32 10 00 E0 04
+<div class="language-text no-select highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>B5 62 06 8A 09 00 01 04 00 00 01 00 32 10 00 E1 0D
 </span></code></pre></div>
 </td>
 </tr>
@@ -1343,9 +1347,9 @@
 <!-- 
 | Configuration layer | Configuration string |
 | :---- | :--------------------------------------------------: |
-| RAM   | `B5 62 06 8A 09 00 00 01 00 00 01 00 32 10 00 DD EC` |
-| BBR   | `B5 62 06 8A 09 00 00 02 00 00 01 00 32 10 00 DE F4` |
-| FLASH | `B5 62 06 8A 09 00 00 04 00 00 01 00 32 10 00 E0 04` |
+| RAM   | `B5 62 06 8A 09 00 01 01 00 00 01 00 32 10 00 DE F5` |
+| BBR   | `B5 62 06 8A 09 00 01 02 00 00 01 00 32 10 00 DF FD` |
+| FLASH | `B5 62 06 8A 09 00 01 04 00 00 01 00 32 10 00 E1 0D` |
 -->
 
 
@@ -1369,7 +1373,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="September 10, 2025 01:06:38 UTC"><span class="timeago" datetime="2025-09-10T01:06:38+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="September 10, 2025 01:06:38 UTC">2025-09-10</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="October 14, 2025 20:19:42 UTC"><span class="timeago" datetime="2025-10-14T20:19:42+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="October 14, 2025 20:19:42 UTC">2025-10-14</span>
   </span>
 
     
