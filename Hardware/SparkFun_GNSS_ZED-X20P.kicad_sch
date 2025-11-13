@@ -1073,7 +1073,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "6.8mm_ML414H"
+			(property "Value" "ML414H"
 				(at 2.54 0 0)
 				(effects
 					(font
@@ -1319,7 +1319,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "SparkFun cap capacitor"
+			(property "ki_keywords" "SparkFun cap capacitor 100nF"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1483,7 +1483,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "SparkFun cap capacitor"
+			(property "ki_keywords" "SparkFun cap capacitor 1uF"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1622,7 +1622,7 @@
 					(hide yes)
 				)
 			)
-			(property "PROD_ID" "CAP-11015"
+			(property "PROD_ID" "CAP-25001"
 				(at -1.27 -13.97 0)
 				(effects
 					(font
@@ -2267,7 +2267,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SparkFun-Connector:Conn_01x04_JST_1.25mm_Locking"
+		(symbol "SparkFun-Connector:Conn_01x04_JST_P1.25mm_Locking_Horizontal_SMD"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -2291,7 +2291,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SparkFun-Connector:JST_SMD_1.25mm-4_Locking"
+			(property "Footprint" "SparkFun-Connector:JST_1x04_P1.25mm_Locking_Horizontal_SMD"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -2345,7 +2345,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x04_JST_1.25mm_Locking_1_1"
+			(symbol "Conn_01x04_JST_P1.25mm_Locking_Horizontal_SMD_1_1"
 				(rectangle
 					(start -1.27 3.81)
 					(end 1.27 -6.35)
@@ -2514,7 +2514,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SparkFun-Connector:Conn_01x06"
+		(symbol "SparkFun-Connector:Conn_01x06_P2.54mm"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -2538,7 +2538,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SparkFun-Connector:1x06"
+			(property "Footprint" "SparkFun-Connector:1x06_P2.54mm"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -2583,7 +2583,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x06_1_1"
+			(symbol "Conn_01x06_P2.54mm_1_1"
 				(rectangle
 					(start -1.27 6.35)
 					(end 1.27 -8.89)
@@ -2772,7 +2772,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SparkFun-Connector:Conn_01x09"
+		(symbol "SparkFun-Connector:Conn_01x09_P2.54mm"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -2796,7 +2796,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SparkFun-Connector:1x09"
+			(property "Footprint" "SparkFun-Connector:1x09_P2.54mm"
 				(at 0 -15.24 0)
 				(effects
 					(font
@@ -2841,7 +2841,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x09_1_1"
+			(symbol "Conn_01x09_P2.54mm_1_1"
 				(rectangle
 					(start -1.27 11.43)
 					(end 1.27 -11.43)
@@ -3117,7 +3117,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SparkFun-Connector:I2C_01x04"
+		(symbol "SparkFun-Connector:I2CStandard_1x04_P2.54mm"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -3141,7 +3141,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SparkFun-Connector:1x04"
+			(property "Footprint" "SparkFun-Connector:1x04_P2.54mm"
 				(at 0 -11.43 0)
 				(effects
 					(font
@@ -3159,7 +3159,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Coomon 4 pin PTH connector for I2C"
+			(property "Description" "Common 4 pin PTH connector for I2C"
 				(at 0 -13.97 0)
 				(effects
 					(font
@@ -3168,7 +3168,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "SparkFun connector"
+			(property "ki_keywords" "SparkFun Qwiic pinout I2C connection"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3186,7 +3186,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "I2C_01x04_1_1"
+			(symbol "I2CStandard_1x04_P2.54mm_1_1"
 				(rectangle
 					(start -1.27 3.81)
 					(end 3.81 -6.35)
@@ -3349,7 +3349,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SparkFun-Connector:Qwiic_Right_Angle"
+		(symbol "SparkFun-Connector:Qwiic_Horizontal"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -3373,7 +3373,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SparkFun-Connector:JST_SMD_1.0mm-4_Black"
+			(property "Footprint" "SparkFun-Connector:JST_1x04_P1.0mm_Horizontal_SMD"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -3427,7 +3427,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Qwiic_Right_Angle_0_0"
+			(symbol "Qwiic_Horizontal_0_0"
 				(polyline
 					(pts
 						(xy 5.6514 -4.1459) (xy 5.6299 -4.0654) (xy 5.5924 -3.9985) (xy 5.5373 -3.9428) (xy 5.4632 -3.8962)
@@ -3527,7 +3527,7 @@
 					)
 				)
 			)
-			(symbol "Qwiic_Right_Angle_1_1"
+			(symbol "Qwiic_Horizontal_1_1"
 				(rectangle
 					(start -1.27 3.81)
 					(end 7.62 -6.35)
@@ -6257,7 +6257,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SparkFun-GPS:ZED-X20P"
+		(symbol "SparkFun-GNSS:ZED-X20P"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -6277,7 +6277,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SparkFun-GPS:ZED-F9P_F9T_F9R_X20P"
+			(property "Footprint" "SparkFun-GNSS:ZED-F9P_F9T_F9R_X20P"
 				(at 0 -27.94 0)
 				(effects
 					(font
@@ -9449,7 +9449,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://docs.broadcom.com/docs/AV02-0551EN"
+			(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APT1608SURCK.pdf"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -10676,7 +10676,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SparkFun-RF:SMA_EdgeMount"
+		(symbol "SparkFun-RF:SMA_EdgeMount_8mm"
 			(pin_numbers
 				(hide yes)
 			)
@@ -10703,7 +10703,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SparkFun-Connector:SMA_Edge"
+			(property "Footprint" "SparkFun-Connector:SMA_Edge_8mm"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -10712,7 +10712,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.sparkfun.com/datasheets/Wireless/Antenna/SMA-Connector.pdf"
+			(property "Datasheet" "https://cdn.sparkfun.com/assets/c/2/9/a/7/SMA-KE-347C-H13.5-1.pdf"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -10730,7 +10730,7 @@
 					(hide yes)
 				)
 			)
-			(property "PROD_ID" "CONN-08289"
+			(property "PROD_ID" "CONN-19593"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -10739,7 +10739,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "SparkFun SMA coxaial connector"
+			(property "ki_keywords" "SparkFun SMA coxaial connector antenna"
 				(at 0 0 0)
 				(effects
 					(font
@@ -10757,7 +10757,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SMA_EdgeMount_0_1"
+			(symbol "SMA_EdgeMount_8mm_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy -0.508 0)
@@ -10818,7 +10818,7 @@
 					)
 				)
 			)
-			(symbol "SMA_EdgeMount_1_1"
+			(symbol "SMA_EdgeMount_8mm_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -16261,7 +16261,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-RF:SMA_EdgeMount")
+		(lib_id "SparkFun-RF:SMA_EdgeMount_8mm")
 		(at 332.74 148.59 0)
 		(mirror y)
 		(unit 1)
@@ -16287,7 +16287,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SparkFun-Connector:SMA_Edge"
+		(property "Footprint" "SparkFun-Connector:SMA_Edge_8mm"
 			(at 332.74 158.75 0)
 			(effects
 				(font
@@ -16296,7 +16296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.sparkfun.com/datasheets/Wireless/Antenna/SMA-Connector.pdf"
+		(property "Datasheet" "https://cdn.sparkfun.com/assets/c/2/9/a/7/SMA-KE-347C-H13.5-1.pdf"
 			(at 332.74 161.29 0)
 			(effects
 				(font
@@ -16314,7 +16314,7 @@
 				(hide yes)
 			)
 		)
-		(property "PROD_ID" "CONN-08289"
+		(property "PROD_ID" "CONN-19593"
 			(at 332.74 156.21 0)
 			(effects
 				(font
@@ -16405,7 +16405,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Connector:Conn_01x04_JST_1.25mm_Locking")
+		(lib_id "SparkFun-Connector:Conn_01x04_JST_P1.25mm_Locking_Horizontal_SMD")
 		(at 189.23 215.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16432,7 +16432,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparkFun-Connector:JST_SMD_1.25mm-4_Locking"
+		(property "Footprint" "SparkFun-Connector:JST_1x04_P1.25mm_Locking_Horizontal_SMD"
 			(at 189.23 226.06 0)
 			(effects
 				(font
@@ -16885,7 +16885,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Connector:Conn_01x09")
+		(lib_id "SparkFun-Connector:Conn_01x09_P2.54mm")
 		(at 60.96 218.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16895,7 +16895,7 @@
 		(fields_autoplaced yes)
 		(uuid "0cddfcb2-9cb8-4856-9aff-a6af4ce5178b")
 		(property "Reference" "J3"
-			(at 63.5 217.17 0)
+			(at 63.5 217.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16904,7 +16904,7 @@
 			)
 		)
 		(property "Value" "Conn_01x09"
-			(at 63.5 219.71 0)
+			(at 63.5 219.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16912,8 +16912,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparkFun-Connector:1x09"
-			(at 60.96 218.44 0)
+		(property "Footprint" "SparkFun-Connector:1x09_P2.54mm"
+			(at 60.96 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16922,7 +16922,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 218.44 0)
+			(at 60.96 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16931,7 +16931,7 @@
 			)
 		)
 		(property "Description" "Basic 0.1\" PTH"
-			(at 60.96 218.44 0)
+			(at 60.96 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19920,7 +19920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://docs.broadcom.com/docs/AV02-0551EN"
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APT1608SURCK.pdf"
 			(at 238.76 234.95 0)
 			(effects
 				(font
@@ -20035,7 +20035,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Connector:Qwiic_Right_Angle")
+		(lib_id "SparkFun-Connector:Qwiic_Horizontal")
 		(at 68.58 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20061,7 +20061,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparkFun-Connector:JST_SMD_1.0mm-4_Black"
+		(property "Footprint" "SparkFun-Connector:JST_1x04_P1.0mm_Horizontal_SMD"
 			(at 68.58 160.02 0)
 			(effects
 				(font
@@ -20840,7 +20840,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Connector:I2C_01x04")
+		(lib_id "SparkFun-Connector:I2CStandard_1x04_P2.54mm")
 		(at 101.6 248.92 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20867,7 +20867,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparkFun-Connector:1x04"
+		(property "Footprint" "SparkFun-Connector:1x04_P2.54mm"
 			(at 101.6 260.35 0)
 			(effects
 				(font
@@ -20877,7 +20877,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 248.92 0)
+			(at 101.6 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20885,7 +20885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Coomon 4 pin PTH connector for I2C"
+		(property "Description" "Common 4 pin PTH connector for I2C"
 			(at 101.6 262.89 0)
 			(effects
 				(font
@@ -23025,7 +23025,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-GPS:ZED-X20P")
+		(lib_id "SparkFun-GNSS:ZED-X20P")
 		(at 334.01 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23050,7 +23050,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SparkFun-GPS:ZED-F9P_F9T_F9R_X20P"
+		(property "Footprint" "SparkFun-GNSS:ZED-F9P_F9T_F9R_X20P"
 			(at 334.01 90.17 0)
 			(effects
 				(font
@@ -23791,7 +23791,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Connector:Conn_01x06")
+		(lib_id "SparkFun-Connector:Conn_01x06_P2.54mm")
 		(at 146.05 213.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23801,7 +23801,7 @@
 		(fields_autoplaced yes)
 		(uuid "b2bea750-d8be-426c-824d-0224a26f1526")
 		(property "Reference" "J2"
-			(at 148.59 213.36 0)
+			(at 148.59 213.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23810,7 +23810,7 @@
 			)
 		)
 		(property "Value" "Conn_01x06"
-			(at 148.59 215.9 0)
+			(at 148.59 215.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23818,8 +23818,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparkFun-Connector:1x06"
-			(at 146.05 213.36 0)
+		(property "Footprint" "SparkFun-Connector:1x06_P2.54mm"
+			(at 146.05 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23828,7 +23828,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 213.36 0)
+			(at 146.05 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23837,7 +23837,7 @@
 			)
 		)
 		(property "Description" "Basic 0.1\" PTH"
-			(at 146.05 213.36 0)
+			(at 146.05 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24002,7 +24002,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Connector:Qwiic_Right_Angle")
+		(lib_id "SparkFun-Connector:Qwiic_Horizontal")
 		(at 102.87 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24029,7 +24029,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparkFun-Connector:JST_SMD_1.0mm-4_Black"
+		(property "Footprint" "SparkFun-Connector:JST_1x04_P1.0mm_Horizontal_SMD"
 			(at 102.87 160.02 0)
 			(effects
 				(font
@@ -24493,7 +24493,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Connector:Conn_01x06")
+		(lib_id "SparkFun-Connector:Conn_01x06_P2.54mm")
 		(at 116.84 213.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24503,23 +24503,25 @@
 		(fields_autoplaced yes)
 		(uuid "c37bfbc0-dfea-468a-80ba-d2921fdd4f3d")
 		(property "Reference" "J11"
-			(at 116.84 201.93 0)
+			(at 119.38 213.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "Conn_01x06"
-			(at 116.84 204.47 0)
+			(at 119.38 215.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "SparkFun-Connector:1x06"
-			(at 116.84 213.36 0)
+		(property "Footprint" "SparkFun-Connector:1x06_P2.54mm"
+			(at 116.84 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24528,7 +24530,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 116.84 213.36 0)
+			(at 116.84 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24537,7 +24539,7 @@
 			)
 		)
 		(property "Description" "Basic 0.1\" PTH"
-			(at 116.84 213.36 0)
+			(at 116.84 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24823,7 +24825,7 @@
 				(hide yes)
 			)
 		)
-		(property "PROD_ID" "CAP-11015"
+		(property "PROD_ID" "CAP-25001"
 			(at 220.98 86.36 0)
 			(effects
 				(font
