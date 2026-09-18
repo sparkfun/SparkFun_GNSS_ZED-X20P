@@ -61,21 +61,14 @@ See section Forcing a receiver reset in the integration manual.
 | `CFG-UART1`        | Configuration of the UART1 interface |
 | `CFG-UART1INPROT`  | Input protocol configuration of the UART1 interface |
 | `CFG-UART1OUTPROT` | Output protocol configuration of the UART1 interface |
+| `CFG-UART2`        | Configuration of the UART2 interface |
+| `CFG-UART2INPROT`  | Input protocol configuration of the UART2 interface |
+| `CFG-UART2OUTPROT` | Output protocol configuration of the UART2 interface |
 
 
+**`NMEA-PUBX`** – u-blox proprietary NMEA messages
 
-
-
-
-
-`CFG-NAVMASK-SV_MASK_GPS` - Satellite mask for the GPS system
-`CFG-NAVMASK-SV_MASK_GAL` - Satellite mask for the Galileo system
-`CFG-NAVMASK-SV_MASK_BDS` - Satellite mask for the BeiDou system
-`CFG-NAVMASK-SV_MASK_QZSS` - Satellite mask for the QZSS system
-`CFG-NAVMASK-SV_MASK_NAVIC` - Satellite mask for the NavIC system
-
-CFG-HW-RF_LNA_MODE Sets the gain mode of the chip internal LNA for the L1 and L5 band independently of each other
-
-
-
-
+| Message | Class/ID | Description (Type) |
+| :------ | :------: | :----------------- |
+| `NMEA-PUBX-CONFIG` | `0xf1 0x41` | Set protocols and baud rate (Set) |
+| `NMEA-PUBX-RATE` | `0xf1 0x40` | Set NMEA message output rate (Set) |
