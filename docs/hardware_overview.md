@@ -554,10 +554,6 @@ The ZED-X20P module has twenty-one I/O pins, of which eight are programmable. Mo
 	</figure>
 
 
-	!!! warning
-		Firmware updates can only be performed with the `UART1` interface.
-
-
 	!!! tip
 		The UART `RX` interface will be disabled when more than 100 frame errors are detected during a one-second period. This can happen if the wrong baud rate is used or the UART `RX` pin is grounded. An error message appears when the UART `RX` interface is reenabled at the end of the one-second period.
 
@@ -592,10 +588,10 @@ The ZED-X20P module has twenty-one I/O pins, of which eight are programmable. Mo
 		<div markdown>
 
 		- `UART1` Output
-			- NMEA protocol with GGA, GLL, GSA, GSV, RMC, VTG, TXT messages are output by default.
+			- NMEA protocol with the GGA, GLL, GSA, GSV, RMC, VTG, and TXT output messages are enabled by default.
 			- UBX and RTCM 3.4 protocols are enabled by default, but no output messages are enabled by default.
 		- `UART1` Input
-			- UBX, NMEA and RTCM 3.4 input protocols are enabled by default.
+			- UBX, NMEA, and RTCM 3.4 input protocols are enabled by default.
 		- `UART2` Output
 			- RTCM 3.4 protocol is enabled by default, but no output messages are enabled by default.
 			- NMEA protocol is disabled by default.
@@ -610,6 +606,10 @@ The ZED-X20P module has twenty-one I/O pins, of which eight are programmable. Mo
 	</div>
 
 	</div>
+
+
+	!!! warning "HPG v2.00 Firmware"
+		Previously, with firmware HPG v2.00, firmware updates could only be performed with the `UART1` interface.
 
 
 === "I^2^C"
@@ -817,6 +817,12 @@ The ZED-X20P module has twenty-one I/O pins, of which eight are programmable. Mo
 
 ### BlueSMiRF Header
 The [`UART2` interface](#uart-interface) of the ZED-X20P can be accessed either through the BlueSMiRF header pins or the JST connector. The BlueSMiRF header can be used to connect the ZED-X20P GNSS module to external devices, such as a microcontroller or [BlueSMiRF v2](https://www.sparkfun.com/sparkfun-bluesmirf-v2.html), Bluetooth^&reg;^ serial link.
+
+
+!!! bug
+	In order to protect the ZED-X20P GNSS receiver from high voltage signals, a 1k&ohm; resistor is placed between the `RX` pin of the BlueSMiRF header and the GNS receiver. However, this has impeded the GNSS receiver from receiving data properly.
+
+	This will be remedied on future boards. In the meantime, users can bypass the resistor by utilizing the `RXD2` PTH pin on the edge of the board.
 
 
 <div class="grid" markdown>
