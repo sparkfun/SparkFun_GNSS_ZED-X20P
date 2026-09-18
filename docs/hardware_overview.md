@@ -233,7 +233,7 @@ The power consumption of the ZED-X20P module depends on the GNSS signals enabled
 
 
 !!! info
-	For more information, please refer to the [ZED-X20P Datasheet](./assets/component_documentation/ZED-X20P_DataSheet_UBXDOC-963802114-13074.pdf).
+	For more information, please refer to the [ZED-X20P Datasheet](./assets/component_documentation/ZED-X20P-00B_DataSheet_UBXDOC-963802114-12690.pdf).
 
 </div>
 
@@ -242,7 +242,7 @@ The power consumption of the ZED-X20P module depends on the GNSS signals enabled
 
 
 ## ZED-X20P GNSS Receiver
-The centerpiece of this GNSS breakout board is the [ZED-X20P module](./assets/component_documentation/ZED-X20P_DataSheet_UBXDOC-963802114-13074.pdf) from [u-blox](https://www.u-blox.com/en); it features their latest X20 GNSS engine, a successor to their popular F9 engine. The ZED-X20P module is an all-band, high precision GNSS receiver that concurrently processes signals from the GPS, Galileo, BeiDou, QZSS, and NavIC constellations across all GNSS frequency bands, including L-band. With positioning algorithms for Real-time Kinematics (RTK), PPP-RTK, and Precise Point Positioning* (PPP) technologies, the module supports standard RTCM corrections for Virtual Reference Stations (VRS) in a Network RTK setup or a local base station setup. Additionally, L-band correction services are natively supported without the need to integrate an external receiver, such as the NEO-D9S.
+The centerpiece of this GNSS breakout board is the [ZED-X20P module](./assets/component_documentation/ZED-X20P-00B_DataSheet_UBXDOC-963802114-12690.pdf) from [u-blox](https://www.u-blox.com/en); it features their latest X20 GNSS engine, a successor to their popular F9 engine. The ZED-X20P module is an all-band, high precision GNSS receiver that concurrently processes signals from the GPS, Galileo, BeiDou, QZSS, and NavIC constellations across all GNSS frequency bands, including L-band. With positioning algorithms for Real-time Kinematics (RTK), PPP-RTK, and Precise Point Positioning* (PPP) technologies, the module supports standard RTCM corrections for Virtual Reference Stations (VRS) in a Network RTK setup or a local base station setup. Additionally, L-band correction services are natively supported without the need to integrate an external receiver, such as the NEO-D9S.
 
 With its very high update rate, the ZED-X20P module is ideal for control applications, ensuring smooth and reliable operation. The module also protects system integrity with multi-layered defenses, including a Root of Trust, jamming and spoofing detection, cryptographic authentication of navigation messages through Galileo OSNMA, and more. The module also accommodates users with a diverse choice of interfaces including USB, UART, SPI, and I^2^C.
 
@@ -623,7 +623,7 @@ The ZED-X20P module has twenty-one I/O pins, of which eight are programmable. Mo
 
 
 	!!! info
-		For users interested in the specific details about the read and write access for th I^2^C bus, please refer to the [ZED-X20P integration manual](https://content.u-blox.com/sites/default/files/documents/DAN-F10N_IntegrationManual_UBXDOC-963802114-13252.pdf)
+		For users interested in the specific details about the read and write access for th I^2^C bus, please refer to the [ZED-X20P integration manual](https://www.u-blox.com/sites/default/files/documents/ZED-X20P_IntegrationManual_UBXDOC-963802114-12901.pdf)
 
 
 	??? tip "What is Qwiic?"
