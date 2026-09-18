@@ -16,7 +16,7 @@ The ZED-X20P module is supported by the u-blox u-center 2 GNSS software for real
 
 > [!NOTE]
 > The USB interface does not fully comply with industry standards and is not suitable for production use. The USB 2.0 FS (full speed, 12 Mbit/s) interface can be used for host communication. Due to the hardware implementation, it may not be possible to certify the USB interface.
-> 
+>
 > `*`: Feature in development
 
 

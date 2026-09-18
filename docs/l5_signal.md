@@ -1,5 +1,5 @@
 !!! warning "HPG v2.02"
-    The binary strings for the UBX configuration of the GPS L5 signal, displayed below, are only valid with the latest **HPG 2.02 firmware** on the ZED-X20P.
+	The binary strings for the UBX configuration of the GPS L5 signal, displayed below, are only valid with the latest **HPG 2.02 firmware** on the ZED-X20P.
 
 
 
@@ -54,7 +54,7 @@ B5 62 06 8A 09 00 01 04 00 00 01 00 32 10 01 E2 0E
 </figure>
 
 
-<!-- 
+<!--
 | Configuration layer | Configuration string |
 | :---- | :--------------------------------------------------: |
 | RAM   | `B5 62 06 8A 09 00 01 01 00 00 01 00 32 10 01 DF F6` |
@@ -104,7 +104,7 @@ B5 62 06 8A 09 00 01 04 00 00 01 00 32 10 00 E1 0D
 </figure>
 
 
-<!-- 
+<!--
 | Configuration layer | Configuration string |
 | :---- | :--------------------------------------------------: |
 | RAM   | `B5 62 06 8A 09 00 01 01 00 00 01 00 32 10 00 DE F5` |

@@ -339,23 +339,23 @@ With its very high update rate, the ZED-X20P module is ideal for control applica
 	- PPP-RTK: <40s
 	- PPP: <120s
 - Features
-    - Programmable flash memory
-    - Carrier phase output
-    - Jamming detection
-    - Galileo OSNMA
-    - Secure boot
+	- Programmable flash memory
+	- Carrier phase output
+	- Jamming detection
+	- Galileo OSNMA
+	- Secure boot
 - Interfaces:
-    - USB
-    - UART x2
-    - SPI
-    - I^2^C
+	- USB
+	- UART x2
+	- SPI
+	- I^2^C
 	- Digital I/O
 		- `TIMEPULSE` configurable: 0.25 - 10MHz
 		- `EXTINT` input for Wakeup
 - Protocols: NMEA 4.11, UBX binary, RTCM v. 3.4, SPARTN v. 2.0.2
 - Services:
-    - AssistNow
-    - PointPerfect
+	- AssistNow
+	- PointPerfect
 - Operating temperature: -40°C to 85°C
 - Dimensions: 17.0mm x 22.0mm x 2.4mm
 
@@ -574,7 +574,7 @@ The ZED-X20P module has twenty-one I/O pins, of which eight are programmable. Mo
 
 
 	!!! info "Configuration Settings"
-		The UART interfaces can be configured with the `CFG-UART*` messages, but will initially have the following settings: 
+		The UART interfaces can be configured with the `CFG-UART*` messages, but will initially have the following settings:
 
 		<div class="grid" markdown>
 
